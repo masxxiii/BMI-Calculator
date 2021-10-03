@@ -7,20 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5144F8F2701ECB700C7E493 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5144F8E2701ECB700C7E493 /* MainView.swift */; };
+		A56599F82705B2A2002AB04A /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56599F72705B2A2002AB04A /* Calculator.swift */; };
+		A56599FA2705D7A6002AB04A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56599F92705D7A6002AB04A /* Data.swift */; };
+		A56599FE27060D46002AB04A /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56599FD27060D46002AB04A /* ResultView.swift */; };
+		A5659A0027060FBE002AB04A /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56599FF27060FBE002AB04A /* ResultViewController.swift */; };
 		A5C81B1826A6A8DF0012C3C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C81B1726A6A8DF0012C3C8 /* AppDelegate.swift */; };
 		A5C81B1A26A6A8DF0012C3C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C81B1926A6A8DF0012C3C8 /* SceneDelegate.swift */; };
 		A5C81B1C26A6A8DF0012C3C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C81B1B26A6A8DF0012C3C8 /* ViewController.swift */; };
-		A5C81B1F26A6A8DF0012C3C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C81B1D26A6A8DF0012C3C8 /* Main.storyboard */; };
 		A5C81B2126A6A8E10012C3C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5C81B2026A6A8E10012C3C8 /* Assets.xcassets */; };
 		A5C81B2426A6A8E10012C3C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C81B2226A6A8E10012C3C8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5144F8E2701ECB700C7E493 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A56599F72705B2A2002AB04A /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		A56599F92705D7A6002AB04A /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		A56599FD27060D46002AB04A /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		A56599FF27060FBE002AB04A /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		A5C81B1426A6A8DF0012C3C8 /* BMI Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C81B1726A6A8DF0012C3C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5C81B1926A6A8DF0012C3C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A5C81B1B26A6A8DF0012C3C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A5C81B1E26A6A8DF0012C3C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5C81B2026A6A8E10012C3C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5C81B2326A6A8E10012C3C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5C81B2526A6A8E10012C3C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +45,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5144F8B2701C11B00C7E493 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5144F8E2701ECB700C7E493 /* MainView.swift */,
+				A56599FD27060D46002AB04A /* ResultView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A5144F8C2701EA2A00C7E493 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A5C81B1926A6A8DF0012C3C8 /* SceneDelegate.swift */,
+				A5C81B1726A6A8DF0012C3C8 /* AppDelegate.swift */,
+				A5C81B1B26A6A8DF0012C3C8 /* ViewController.swift */,
+				A56599FF27060FBE002AB04A /* ResultViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A5144F8D2701EA3700C7E493 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A56599F72705B2A2002AB04A /* Calculator.swift */,
+				A56599F92705D7A6002AB04A /* Data.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5144F902701F75000C7E493 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5C81B2526A6A8E10012C3C8 /* Info.plist */,
+				A5C81B2226A6A8E10012C3C8 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5144F912701F7AB00C7E493 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A5C81B2026A6A8E10012C3C8 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		A5C81B0B26A6A8DF0012C3C8 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +110,11 @@
 		A5C81B1626A6A8DF0012C3C8 /* BMI Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				A5C81B1726A6A8DF0012C3C8 /* AppDelegate.swift */,
-				A5C81B1926A6A8DF0012C3C8 /* SceneDelegate.swift */,
-				A5C81B1B26A6A8DF0012C3C8 /* ViewController.swift */,
-				A5C81B1D26A6A8DF0012C3C8 /* Main.storyboard */,
-				A5C81B2026A6A8E10012C3C8 /* Assets.xcassets */,
-				A5C81B2226A6A8E10012C3C8 /* LaunchScreen.storyboard */,
-				A5C81B2526A6A8E10012C3C8 /* Info.plist */,
+				A5144F912701F7AB00C7E493 /* Resources */,
+				A5144F902701F75000C7E493 /* Supporting Files */,
+				A5144F8D2701EA3700C7E493 /* Models */,
+				A5144F8C2701EA2A00C7E493 /* Controllers */,
+				A5144F8B2701C11B00C7E493 /* Views */,
 			);
 			path = "BMI Calculator";
 			sourceTree = "<group>";
@@ -126,7 +178,6 @@
 			files = (
 				A5C81B2426A6A8E10012C3C8 /* LaunchScreen.storyboard in Resources */,
 				A5C81B2126A6A8E10012C3C8 /* Assets.xcassets in Resources */,
-				A5C81B1F26A6A8DF0012C3C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +189,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5C81B1C26A6A8DF0012C3C8 /* ViewController.swift in Sources */,
+				A56599FA2705D7A6002AB04A /* Data.swift in Sources */,
+				A5144F8F2701ECB700C7E493 /* MainView.swift in Sources */,
+				A5659A0027060FBE002AB04A /* ResultViewController.swift in Sources */,
 				A5C81B1826A6A8DF0012C3C8 /* AppDelegate.swift in Sources */,
+				A56599F82705B2A2002AB04A /* Calculator.swift in Sources */,
+				A56599FE27060D46002AB04A /* ResultView.swift in Sources */,
 				A5C81B1A26A6A8DF0012C3C8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,14 +202,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A5C81B1D26A6A8DF0012C3C8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A5C81B1E26A6A8DF0012C3C8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A5C81B2226A6A8E10012C3C8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,7 +336,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TZTSS56N88;
-				INFOPLIST_FILE = "BMI Calculator/Info.plist";
+				INFOPLIST_FILE = "BMI Calculator/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +355,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TZTSS56N88;
-				INFOPLIST_FILE = "BMI Calculator/Info.plist";
+				INFOPLIST_FILE = "BMI Calculator/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
