@@ -40,7 +40,7 @@ struct Calculator {
         }
         else {
             bmi = Data(bmiValue: valueCalculated,
-                       advice: "You are fat. There is nothing else to call it.",
+                       advice: "You are fat. There is no other way to put it.",
                        displayColor: UIColor(red: 1.00, green: 0.28, blue: 0.28, alpha: 1.00))
         }
         
